@@ -3,9 +3,65 @@
 * {
   box-sizing: border-box;
 }
-html,
+
 body {
   padding: 0;
   margin: 0;
   min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:url("/static/unnamed.png");
+
+  button {
+    border: none; 
+    background-color:rgb(0, 0, 139,.9) ; 
+    font-size: 18px; 
+    color:white;
+    padding: 2%; 
+    border-radius: 5%; 
+    margin: 2%; 
+  }
+ 
+ h1, footer{
+    text-align: center;
+    color:darkblue; 
+    font-size: 80px;
+    background-color: rgba(224, 255, 255, 0.9); 
+    border: solid cadetblue 1px;
+    span{
+      font-size: 40px; 
+    }
+    p{
+     font-size: 18px;  
+    }
+  }
+    
+  header{
+    #headerButtons{
+      text-align: center;
+    } 
+  }
+  main {
+    display: flex; 
+    flex-wrap : wrap; 
+    justify-content: space-around;
+    .card {
+      border: solid cadetblue 1px;
+      background-color: rgba(224, 255, 255, 0.9); 
+      color:darkblue; 
+      font-size: 14px;
+      margin: auto; 
+      text-align: center; 
+      border-radius: 5%;
+      padding: 2%; 
+      img {
+        width: 200px; 
+      }
+    }
+  }
 }
+
+
+
+
+
+
