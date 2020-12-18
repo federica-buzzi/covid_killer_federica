@@ -36,15 +36,35 @@ Les réponses peuvent être subjectives si il y a le signe **(s)** à la fin de 
 Vous pouvez répondre à même ce document ou dans un fichier à part.
 
 - Qu'est-ce que JavaScript vanilla ?
+  
+  JavaScript vanilla est l’utilisation plain de JavaScript, sans frameworks ou librairies. En gros, c’est le JS qu’on est en train d’écrire pour l’instant.  
 - Qu'est-ce qu'AJAX ?
+  
+  C’est l’acronyme de Asynchronous Javascript And Xml. Il sert à afficher des contenus sur la page à fur et à mesure sans devoir faire f5 (rafraichir) pour recharger toute la page.  
 - Pourquoi JavaScript est parfois mal-aimé des devs ? **(s)**
+  
+  Parce c’est un langage au même temps faiblement typée et dynamiquement typée et cette combinaison peut générer des nombreux bugs. En plus, comme il s’agit d’un langage interprété la plupart des erreurs se présentent en phase de production. 
 - Y a-t-il des types en JavaScript ? Si oui, lesquels ?
+  
+  Oui en JavaScript les types peuvent être divisé en deux groupes : les types primitifs et les types complexes. Les types primitives sont: number, boolean, string, null, undefined, symbol. Ils sont manipulés par valeur (ils reçoivent une copie du valeur et donc, même si celle-là est manipulé, le valeur original ne change jamais). Les types complexes (non-primitives) en revanche sont array, object et function. Ils sont manipulés par référence (ils reçoivent l’adresse dans la mémoire de l’ordinateur du valeur et donc si celle-là est manipulé, le valeur original change aussi)
 - Est-ce que SASS est un langage qui est interprété par les navigateurs ?
+  
+  SASS n’est pas un langage, c’est plutôt un préprocesseur CSS. Une fois compilé la feuille .scss est transformé en CSS, qui est un langage interprété par le navigateur. 
 - Pourquoi peut-on dire que JavaScript est un langage "multi-paradigmes" ? **(s)**
+  
+  JavaScript est surtout adapté à faire de la programmation fonctionnelle, mais c’est aussi possible de faire de l’orienté objet étant donné que le type object existe. 
 - En JS, une fonction peut-elle retourner une fonction ?
+  
+  Oui, en JavaScript les fonctions sont citoyennes de premier classe, ca veut dire que les fonctions sont des valeurs comme tous les autres : il peuvent être stocké dans une variable, ou bien passé en argument ou retourné par une fonction. 
 - Est-ce que `alert` existe en Node.JS ?
+  
+  Non, alert() est un méthode lié à l’objet « window », qui n’existe pas coté serveur. L’objet « window » et ses méthodes existent seulement sur le navigateur. 
 - Est-ce que `window.console.log === console.log` dans le navigateur ?
+  
+  Dans la console du navigateur window.console.log === console.log donne true. 
 - Quel est votre aspect préféré de JavaScript ? **(s)**
+  
+  Que c’est le langage par excellence pour faire du web. C’est immédiatement possible de voir les résultats de son code dans le navigateur et ça c’est vraiment satisfaisant.  
 
 ## Épreuve pratique sur 80pts
 Vous êtes codeuse/codeur JavaScript dans une clinique du centre-ville.
